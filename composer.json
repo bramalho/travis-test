@@ -11,8 +11,8 @@
         "phpunit/phpunit": "^8.1"
     },
     "autoload": {
-        "psr-0": {
-            "": "src"
+        "psr-4": {
+            "TravisTest\\": "src"
         }
     }
 }
