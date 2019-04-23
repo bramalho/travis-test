@@ -1,0 +1,10 @@
+{
+    "name": "bramalho/travis-test",
+    "authors": [
+        {
+            "name": "Bruno Ramalho",
+            "email": "bramalho@divante.pl"
+        }
+    ],
+    "require": {}
+}
