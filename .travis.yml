@@ -5,6 +5,8 @@ cache:
     - $HOME/.cache/composer
 
 install:
+  - ls -la
+  - ls -la scripts
   - scripts/install.sh
 
 script:
