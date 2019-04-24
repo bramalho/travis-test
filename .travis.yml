@@ -5,4 +5,5 @@ cache:
     - $HOME/.cache/composer
 
 script:
-  - php vendor/bin/phpunit --coverage-text
+#  - php vendor/bin/phpunit --coverage-text
+  - ls -la
