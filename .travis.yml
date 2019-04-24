@@ -4,6 +4,9 @@ cache:
   directories:
     - $HOME/.cache/composer
 
+before_install:
+  - ./scripts/install.sh
+
 script:
-#  - php vendor/bin/phpunit --coverage-text
   - ls -la
+  - ./vendor/bin/phpunit --coverage-text
