@@ -1,1 +1,8 @@
 language: php
+
+cache:
+  directories:
+    - $HOME/.cache/composer
+
+script:
+  - ./vendor/bin/phpunit --coverage-text
